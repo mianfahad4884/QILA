@@ -41,6 +41,11 @@ jobs:
         run: npx cap sync android
 
 
+      - name: Generate Gradle Wrapper
+        run: |
+          cd android
+          gradle wrapper
+
       - name: Build Android APK
         run: |
           cd android
