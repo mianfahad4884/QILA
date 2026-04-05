@@ -1,0 +1,13 @@
+{
+  "appId": "com.qila.intelligence",
+  "appName": "QILA",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "https"
+  },
+  "plugins": {
+    "CapacitorHttp": {
+      "enabled": true
+    }
+  }
+}
