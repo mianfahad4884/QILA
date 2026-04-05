@@ -1,3 +1,4 @@
+apply from: 'variables.gradle'
 buildscript {
     repositories {
         google()
