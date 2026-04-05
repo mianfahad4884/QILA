@@ -12,5 +12,10 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = 'QILA'
 include ':app'
+
+project(':capacitor-android').projectDir = new File('../node_modules/@capacitor/android/capacitor')
+include ':capacitor-android'
+
+project(':capacitor-cordova-android-plugins').projectDir = new File('capacitor-cordova-android-plugins')
+include ':capacitor-cordova-android-plugins'
